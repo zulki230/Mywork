@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Zulkifal - Student Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f8fb;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      background: #003366;
+      text-align: center;
+      padding: 0.8rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      color: #004080;
+      border-bottom: 2px solid #004080;
+      padding-bottom: 0.5rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #004080;
+      color: #fff;
+      margin-top: 2rem;
+    }
+    a {
+      color: #004080;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #004080;
+      color: #fff;
+      border-radius: 6px;
+      margin-top: 10px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Replace profile.jpg with your own picture -->
+    <img src="profile.jpg" alt="Ali Zulkifal Profile">
+    <h1>Ali Zulkifal</h1>
+    <p>Business Student at Dong-A University | From Lahore, Pakistan</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hello! 👋 My name is <strong>Ali Zulkifal</strong>, I am 22 years old from <strong>Lahore, Punjab, Pakistan</strong>. 
+      I’m studying <strong>Integrated Business Management (IBM)</strong> at <strong>Dong-A University</strong>, South Korea.  
+      I love traveling ✈️ and I am learning the Korean language 🇰🇷 while building my future in international business.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <p><strong>Dong-A University</strong><br>
+      BBA in Integrated Business Management (IBM)<br>
+      Expected Graduation: 2027</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Languages: English, Urdu, Basic Korean</li>
+        <li>Business & Management Knowledge</li>
+        <li>Cross-cultural Adaptability</li>
+        <li>Team Collaboration & Communication</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="card">
+      <p>Here are some of my projects:</p>
+      <ul>
+        <li>🎮 <a href="https://yourusername.github.io/guess-the-number" target="_blank">Guess the Number Game</a></li>
+        <li>🌐 <a href="https://yourusername.github.io/student-portfolio" target="_blank">This Portfolio Website</a></li>
+        <li>💼 <a href="https://github.com/yourusername" target="_blank">My GitHub Profile</a></li>
+        <li>🕹 <a href="https://zulki230.github.io/Mywork/Game.html" target="_blank">My Game Project</a></li>
+        <li>🎯 <a href="https://zulki230.github.io/Mywork/Updatedgame.html" target="_blank">Updated Game Project</a></li>
+        <li>📄 <a href="https://docs.google.com/document/d/105chkEIAXm_VH-7V0ebchhkq23SG4DkzPwKINiutquQ/edit?usp=drivesdk" target="_blank">Google Docs Project</a></li>
+        <!-- New Projects Added -->
+        <li>🐍 <a href="https://g.co/gemini/share/9043d84cc080" target="_blank">Python Learning (Gemini Share)</a></li>
+        <li>💻 <a href="https://colab.research.google.com/drive/1Wb-OkiOZCrchuwHMj6Q_K1cnhEouLsnO" target="_blank">Google Colab Project</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
+      <a href="Ali_Zulkifal_Resume.pdf" class="btn" target="_blank">📄 Download Resume</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>©️ 2025 Ali Zulkifal | Student Portfolio</p>
+  </footer>
+</body>
+</html>
